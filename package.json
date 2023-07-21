@@ -1,0 +1,47 @@
+{
+  "name": "basic-restful-api-template",
+  "description": "basic restful api template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexisDelahaye7/basic-restful-api-training.git"
+  },
+  "keywords": [
+    "backend",
+    "restful",
+    "api",
+    "nodejs",
+    "expressjs",
+    "SQL",
+    "postgres",
+    "joi",
+    "winston",
+    "jsdoc-swagger",
+    "eslint",
+    "eslint-airbnb"
+  ],
+  "author": "Alexis Delahaye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexisDelahaye7/basic-restful-api-training/issues"
+  },
+  "homepage": "https://github.com/AlexisDelahaye7/basic-restful-api-training#readme",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.45.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "express": "^4.18.2",
+    "express-jsdoc-swagger": "^1.8.0",
+    "joi": "^17.9.2",
+    "pg": "^8.11.1",
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
