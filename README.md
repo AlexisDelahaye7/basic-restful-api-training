@@ -42,8 +42,8 @@ The database version control is managed by sqitch, basic config is done and comm
 
 - main.router.js: Main router. Catch all requests and redirect to API or website router. If needed, catch errors and send them to error handler
   - api.router.js: API router. Catch all requests starting with /api and redirect to desired routes module.
-    - api.first.router.js: example of sub-router. "first" must be replaced with a relevant name.
-    - api.second.router.js: example of sub-router. "second" must be replaced with a relevant name.
+    - api.YOUR_MODEL_NAME_1.router.js: example of sub-router. "first" must be replaced with a relevant name.
+    - api.YOUR_MODEL_NAME_2.router.js: example of sub-router. "second" must be replaced with a relevant name.
   - website.router.js: Website router. Catch all requests starting with / and redirect to desired routes module.
 
 #### Errors
