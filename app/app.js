@@ -1,9 +1,8 @@
-import path from 'path';
 import express from 'express';
 import cors from 'cors';
 
-import apiDocs from 'helpers/api.docs.js';
-import accessHttpMiddleware from 'middlewares/request.http.middleware.js';
+import accessHttpMiddleware from './middlewares/request.http.middleware.js';
+import apiDocs from './helpers/api.doc.js';
 import router from './routers/main.router.js';
 
 const app = express();
